@@ -208,6 +208,28 @@ The project visualizes the trade-off between payoff and risk using an efficient 
 ![plot2.png](image/plot2.png)
 ![plot3.png](image/plot3.png)
 
+```
+==============================
+Selected Rule: 70% Conservative / 30% Aggressive
+==============================
+rule_id             1571.000000
+entry_z                3.000000
+profit_take_z          1.500000
+stop_loss_z            0.750000
+vertical_barrier      40.000000
+avg_net_payoff         0.019616
+loss_probability       0.000000
+expected_mdd_abs       0.001175
+signal_frequency       0.000206
+precision              0.368932
+recall                 0.001046
+fbeta_0.50             0.005171
+fbeta_1.00             0.002086
+fbeta_2.00             0.001306
+mandate_utility        0.004785
+Name: 1571, dtype: float64
+```
+
 A trading rule is considered efficient if no other rule has both:
 
 - higher or equal expected net payoff
